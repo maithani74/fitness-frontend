@@ -1,0 +1,133 @@
+.calendar .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calendar .h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+
+.h5 h5{
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.calendar .dates{
+    margin-left: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar .dates .mon{
+    margin-top: -26px;
+    color:white;
+    padding: 20px;
+    border-radius: 12px;
+    height: 4em;
+    background: linear-gradient(270deg, #8DA4FF -0.62%, #D1DBFF 100.68%);
+}
+
+.calendar .time{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.time label{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.time hr{
+    margin-left: -20px;
+    width: 23em;
+}
+
+.inside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside .box{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    right: 3px;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+}
+
+.inside .box2{
+    right: 65px;
+}
+
+.inside .box3{
+    color: black;
+    right: 80px;
+     background: var(--gray-50, #F1F1F1);
+;
+}
+
+.calendar .circle{
+    position: absolute;
+    right: 4px;
+    bottom: 100px;
+    display: flex;
+    color: white;
+    font-size: 6vh;
+    justify-content: center;
+    align-items: center;
+    width: 21vw;
+    height: 12vh;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+}
+
+.calendar .circle h3{
+    position: absolute;
+    top:-42px
+}
+
+.calendar .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar .images img{
+    height: 40px;
+}
+
+.calendar .images .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 34px;
+    height: 10vh;
+    width: 20vw;
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+
+    border-radius: 50%;
+}
+
+.logout{
+    position: absolute;
+    right: 0px;
+    bottom: 44px;
+}
+
+.logout button{
+    background: gray;
+    color: black;
+}

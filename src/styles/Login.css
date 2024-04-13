@@ -1,0 +1,90 @@
+h2 {
+  margin-left: 10px;
+  width: 100%;
+  height: 5vh;
+}
+
+.fields {
+  display: inline-block;
+}
+
+.fields input {
+  margin: 10px;
+  width: 90%;
+  height: 8vh;
+  border-radius: 12px;
+  background: #f1f1f1;
+  border: none;
+  padding-left: 14px;
+}
+
+p {
+  display: inline-block;
+  color: #7f7f7f;
+  margin-left: 10px;
+  border-bottom: 1px solid #7f7f7f;
+}
+button {
+  display: block;
+  color: white;
+  margin-left: 10px;
+  width: 90%;
+  height: 8vh;
+  border-radius: 12px;
+  background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+  border: none;
+  padding-left: 14px;
+  margin-top: 40%;
+}
+
+.or{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.or input{
+    margin: 5px;
+    height: 0px;
+    margin-top: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-block: 0px;
+    padding-inline: 0px;
+}
+
+.change{
+    margin-left: 30px;
+    position: relative;
+    top: 70px;
+}
+.change span{
+    color: #829DFF;
+
+}
+
+.terms input{
+    margin-left: 10px;
+}
+
+.terms span{
+    color: #93A9FF;
+}
+
+.terms label{
+    font-weight: 100;
+    font-size: 15px;
+    color: #7f7f7f;
+}
+.submit button{
+    display: block;
+    color: white;
+    margin-left: 10px;
+    width: 90%;
+    height: 8vh;
+    border-radius: 12px;
+    background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+    border: none;
+    padding-left: 14px;
+    margin-top: 8%;
+}
